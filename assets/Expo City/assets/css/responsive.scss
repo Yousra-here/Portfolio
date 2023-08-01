@@ -1,0 +1,107 @@
+@media only screen and (max-width: 1120px) {
+   .main-container{
+    padding: 32px 30px !important;
+   }
+}
+@media only screen and (max-width: 991px) {
+   nav{
+    .navbar-brand img{
+        width: 120px !important;
+        min-height: 50px !important;
+         }
+   .ms-4{
+    margin-left: 0px !important;
+   }
+    .nav-link{
+       font-size: 12px!important;
+      
+    }
+    .dropdown-menu{
+        background-color:transparent;
+        border: none;
+        margin: 0px 20px;
+        padding: 0px !important;
+         text-align: start; 
+         
+         
+      .dropdown-item{
+        border-bottom: 1px solid rgba(253, 180, 70, 0.2); 
+        color: rgb(0, 0, 0);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 18px;
+        /* identical to box height, or 138% */
+        padding: 10px 0px;
+        letter-spacing: 0.08em;
+        text-align: start;
+      }
+    }
+   }
+}
+@media screen and (max-width: 768px) {
+nav{
+    border-bottom: 0px !important;
+      .container{
+        border: none !important;
+        .navbar-collapse{
+            border: 1px solid black;
+            padding: 0px !important;
+            position: absolute;
+            z-index: 43534534534535;
+            width: 94%;
+            margin: 0px auto;
+            left: 3%;
+            top: 90%;
+            background: rgb(255, 255, 255);
+            border-radius: 12px;
+            .nav-link{
+                padding: 0px 20px;
+       text-align: start; 
+       color:#F1960E;
+       margin: 20px 0px;
+            }
+        }
+    }
+    .custom-nav{
+       display: none;
+    }
+}
+    .breadcrumb{
+        display: none !important;
+        padding-top: 0px !important;
+    } 
+    
+    .main-container{
+       
+        margin:-20px  auto !important;
+padding: 32px 20px !important;
+    }
+}
+@media screen and (max-width: 620px) {
+    .buttons{
+        flex-direction: column;
+        .left-btns{
+            button{
+                padding: 8px 15px;
+            }
+        }
+        .right-btns{
+          
+            margin-top: 20px;
+            button{
+                padding: 8px 15px;
+            }
+        }
+    }
+
+       .image{
+            position: absolute;
+            right:4px ;
+            top: 6px;
+            img{
+                width: 20px;
+                height: 20px;
+            }
+              }
+}

@@ -1,0 +1,130 @@
+@media only screen and (max-width: 1015px) {
+    .header-top1 {
+        display: none;
+    }
+    .header-top2 {
+        display: none !important;
+    }
+    .header {
+        width: 100%;
+        background-color: #172237;
+        height: 80px;
+        .res-head {
+            display: flex;
+            width: 100%;
+            position: fixed;
+            z-index: 78566789989787;
+            top: 0;
+            left: 0;
+            background-color: #172237;
+        }
+        .res-input {
+            display: inline-block;
+            width: 100%;
+            .col {
+                display: block;
+            }
+        }
+        // Responsive row-1.... 
+        .row-1 {
+            display: none !important;
+        }
+    }
+    #navbar {
+        .container {
+            width: 100% !important;
+        }
+    }
+    .row-1 {
+        display: none;
+    }
+    .row-1-r {
+        section {
+            display: block;
+        }
+    }
+    .row-3-r {
+        display: block;
+    }
+    .row-2 {
+        display: none !important;
+    }
+    .names {
+        display: none;
+    }
+    .row-5 {
+        display: none;
+    }
+    .row6 {
+        display: none;
+    }
+    .row-6-r {
+        display: block !important;
+    }
+    .row-7-r {
+        display: block;
+    }
+    .row-9 {
+        display: none;
+    }
+    .row-9-r {
+        display: block;
+    }
+    .row10 {
+        display: none !important;
+    }
+    .row11 {
+        display: none;
+    }
+    .row12 {
+        display: none;
+    }
+    .row-12-r {
+        display: block !important;
+    }
+    footer {
+        display: none;
+    }
+    .footer-r {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .container {
+        max-width: 1000px;
+    }
+    .header {
+        display: block;
+    }
+    #navbar {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1270px) {
+    .container {
+        max-width: 1270px !important;
+    }
+}
+
+@media only screen and (min-width: 1536px) {
+    .container {
+        max-width: 1536px !important;
+    }
+    .row-1 {
+        .categories {
+            li {}
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 450px) {}
+
+@media screen and (max-width: 450px) {}

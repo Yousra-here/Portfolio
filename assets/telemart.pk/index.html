@@ -1,0 +1,2574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- bootstrap 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <!-- bootstrap 5-->
+
+    <!-- icons -->
+    <link href="https://cdn.materialdesignicons.com/3.2.89/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css" rel="stylesheet">
+    <!-- icons -->
+
+    <!-- aos animation -->
+    <script src="assets/css/aos.js"></script>
+    <link href="assets/css/aos.css" rel="stylesheet">
+    <!-- aos animation -->
+
+    <!-- css -->
+    <link href="assets/css/hover.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!-- css -->
+
+    <link href="assets/images/logo.png" rel="icon" type="image/x-icon">
+    <title>TELE MART</title>
+
+</head>
+
+<body onscroll="myFunction()">
+
+    <div class="header">
+        <div class="container mx-auto px-2">
+            <!-- RESPONSIVE HEADER  -->
+            <div class="responsive-header">
+                <div class="res-head">
+
+                    <span style="cursor:pointer" onclick="openNav()"><i class="fa-sharp fa-solid fa-bars fa-lg" style="color: #ffffff;"></i></span>
+
+                    <div id="mySidenav" class="sidenav p-0">
+                        <a href="javascript:void(0)" class="closebtn p-0 text-light" onclick="closeNav()"><i class="fa-sharp fa-regular fa-xmark fa-sm" ></i></a>
+                        <div class="login text-light text-start">
+                            <i class="fa-solid fa-user fa-lg px-2" style="color: #ffffff;"></i> Login and SignUp
+                        </div>
+
+                        <ul>
+                            <li>
+                                <a href="">Smart phone at installment</a>
+                            </li>
+                            <li>
+                                <a href="">Telemart Stores</a>
+                            </li>
+                            <li>
+                                <a href="">Apply for a Franchise</a>
+                            </li>
+                            <li>
+                                <a href="">Islamic Insurance</a>
+                            </li>
+                            <li>
+                                <a href="">Sell on telemart</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="logo">
+                        <img src="assets/images/logo.png" alt="">
+                    </div>
+
+                    <div class="icons">
+                        <div class="cart">
+                            <i class="fa-sharp fa-solid fa-cart-shopping fa-sm" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="user">
+                            <i class="fa-sharp fa-solid fa-user fa-xs" style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+
+                    <div class="res-img">
+                        <img src="assets/images/res-ad.jpg" alt="ad">
+                    </div>
+
+                </div>
+
+                <div class="res-input">
+
+                    <!--  variation with a button -->
+                    <div class="input-group" style="padding-top: 105px;">
+                        <button class="btn btn-secondary" type="button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        <input type="text" class="form-control" placeholder="Search for products,categories...">
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="header-top1 ">
+                <div class="menu-icon">
+
+                </div>
+                <div class="first2-head">
+                    <div class="h-1st">
+                        Pakistan's Best Online Shopping Destination
+                    </div>
+                    <div class="h-2nd hstack gap-2 flex-wrap ">
+                        <a class="text-nowrap"> Smart Phone on installments </a>
+                        <a class="vr">|</a>
+                        <a class="text-nowrap"> Telemart Stores </a>
+                        <a class="vr">|</a>
+                        <a class="text-nowrap">Apply For A Franchise </a>
+                        <a class="vr">|</a>
+                        <a class="text-nowrap">Takaful Islamic Insurance </a>
+                        <a class="vr">|</a>
+                        <a class="text-nowrap">Sell On Telemart </a>
+                        <a class="vr">|</a>
+                        <a class="text-nowrap">Support </a>
+                        <a class="vr">|</a>
+
+                        <div class="bismillah" style="width:17%; ">
+                            <img src="assets/images/bismillah.png" alt="Bismillah Page" style=" display: inline-block; max-width: 100%;">
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVBAR  -->
+    <div id="navbar">
+
+        <div class="container mx-auto px-2 flex flex-wrap py-3 flex-col lg:flex-row items-center">
+            <div class="header-top2 ">
+                <div class="left-top2">
+                    <div class="logo">
+                        <img src="assets/images/logo.png" alt="logo">
+                    </div>
+                    <div class="sitemenu">
+                        <!--after scroll menu bar-->
+                        <div class="dropdown">
+
+                            <span tabindex=0>   <i class="fa-sharp fa-regular fa-bars fa-lg" style="color: white;"></i>
+
+                            </span>
+                            <div class="dropdown-content">
+                                <ul class="p-0 ">
+                                    <li class="list-unstyled ">
+                                        <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                            <div class="inline-mr-2">
+                                                <img src="assets/images/mobile.png " class=" w-5  ">
+                                            </div>
+                                            <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                                Mobiles & Tablets
+                                            </span>
+
+                                        </a>
+                                    </li>
+                                    <li class="list-unstyled ">
+                                        <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                            <div class="inline-mr-2">
+                                                <img src="assets/images/mens.png " class=" w-5  ">
+                                            </div>
+                                            <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                                Men's Fashion
+                                            </span>
+
+                                        </a>
+                                    </li>
+                                    <li class="list-unstyled ">
+                                        <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                            <div class="inline-mr-2">
+                                                <img src="assets/images/woman.png " class=" w-5">
+                                            </div>
+                                            <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                                Women Fashion
+                                            </span>
+
+                                        </a>
+                                    </li>
+                                    <li class="list-unstyled ">
+                                        <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                            <div class="inline-mr-2">
+                                                <img src="assets/images/appliances.png  " class=" w-5  ">
+                                            </div>
+                                            <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                                Appliances
+                                            </span>
+
+                                        </a>
+                                    </li>
+                                    <li class="list-unstyled ">
+                                        <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                            <div class="inline-mr-2">
+                                                <img src="assets/images/tv.png   " class=" w-5  ">
+                                            </div>
+                                            <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                                TV & Video
+                                            </span>
+
+                                        </a>
+                                    </li>
+                                    <li class="list-unstyled ">
+                                        <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                            <div class="inline-mr-2">
+                                                <img src="assets/images/kids.png   " class=" w-5  ">
+                                            </div>
+                                            <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                                Kids Mart
+                                            </span>
+
+                                        </a>
+                                    </li>
+                                    <li class="list-unstyled ">
+                                        <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                            <div class="inline-mr-2">
+                                                <img src="assets/images/home.png" class=" w-5  ">
+                                            </div>
+                                            <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                                Home and Living
+                                            </span>
+
+                                        </a>
+                                    </li>
+                                    <li class="list-unstyled ">
+                                        <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                            <div class="inline-mr-2">
+                                                <img src="assets/images/computer.png " class=" w-5  ">
+                                            </div>
+                                            <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                                Computer and Gaming
+                                            </span>
+
+                                        </a>
+                                    </li>
+                                    <li class="list-unstyled ">
+                                        <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                            <div class="inline-mr-2">
+                                                <img src="assets/images/car.png" class=" w-5  ">
+                                            </div>
+                                            <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                                Automotive
+                                            </span>
+
+                                        </a>
+                                    </li>
+                                    <li class="list-unstyled ">
+                                        <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                            <div class="inline-mr-2">
+                                                <img src="assets/images/health.png" class=" w-5  ">
+                                            </div>
+                                            <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                                Health and Care
+                                            </span>
+
+                                        </a>
+                                    </li>
+                                    <li class="list-unstyled ">
+                                        <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                            <div class="inline-mr-2">
+                                                <img src="assets/images/camera.png" class=" w-5  ">
+                                            </div>
+                                            <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                                Camera
+                                            </span>
+
+                                        </a>
+                                    </li>
+                                    <li class="list-unstyled ">
+                                        <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                            <div class="inline-mr-2">
+                                                <img src="assets/images/audio.png" class=" w-5  ">
+                                            </div>
+                                            <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                                Home Audio and Theatre
+                                            </span>
+
+                                        </a>
+                                    </li>
+                                    <li class="list-unstyled ">
+                                        <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                            <div class="inline-mr-2">
+                                                <img src="assets/images/more.png " class=" w-5  ">
+                                            </div>
+                                            <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                                More
+                                            </span>
+
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+                    <!--  variation with a button -->
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="What are you looking for?">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="right-top2">
+                    <div class="cart text-white">
+                        Cart
+                        <i class="fa-sharp fa-solid fa-cart-shopping fa-sm" style="color: #ffffff;"></i>0
+                    </div>
+
+                    <div class="sign text-white">
+                        Sign in
+                        <i class="fa-solid fa-user fa-sm" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- ROW 1 Categories  -->
+    <div class="row-1" style="margin-top: 20px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="categories ">
+                        <h3 class="smallfontt ">TOP CATEGORIES</h3>
+                        <ul class="p-0 ">
+                            <li class="list-unstyled ">
+                                <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                    <div class="inline-mr-2">
+                                        <img src="assets/images/mobile.png " class=" w-5  ">
+                                    </div>
+                                    <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                        Mobiles & Tablets
+                                    </span>
+
+                                </a>
+                            </li>
+                            <li class="list-unstyled ">
+                                <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                    <div class="inline-mr-2">
+                                        <img src="assets/images/mens.png " class=" w-5  ">
+                                    </div>
+                                    <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                        Men's Fashion
+                                    </span>
+
+                                </a>
+                            </li>
+                            <li class="list-unstyled ">
+                                <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                    <div class="inline-mr-2">
+                                        <img src="assets/images/woman.png " class=" w-5">
+                                    </div>
+                                    <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                        Women Fashion
+                                    </span>
+
+                                </a>
+                            </li>
+                            <li class="list-unstyled ">
+                                <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                    <div class="inline-mr-2">
+                                        <img src="assets/images/appliances.png  " class=" w-5  ">
+                                    </div>
+                                    <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                        Appliances
+                                    </span>
+
+                                </a>
+                            </li>
+                            <li class="list-unstyled ">
+                                <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                    <div class="inline-mr-2">
+                                        <img src="assets/images/tv.png   " class=" w-5  ">
+                                    </div>
+                                    <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                        TV & Video
+                                    </span>
+
+                                </a>
+                            </li>
+                            <li class="list-unstyled ">
+                                <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                    <div class="inline-mr-2">
+                                        <img src="assets/images/kids.png   " class=" w-5  ">
+                                    </div>
+                                    <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                        Kids Mart
+                                    </span>
+
+                                </a>
+                            </li>
+                            <li class="list-unstyled ">
+                                <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                    <div class="inline-mr-2">
+                                        <img src="assets/images/home.png" class=" w-5  ">
+                                    </div>
+                                    <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                        Home and Living
+                                    </span>
+
+                                </a>
+                            </li>
+                            <li class="list-unstyled ">
+                                <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                    <div class="inline-mr-2">
+                                        <img src="assets/images/computer.png " class=" w-5  ">
+                                    </div>
+                                    <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                        Computer and Gaming
+                                    </span>
+
+                                </a>
+                            </li>
+                            <li class="list-unstyled ">
+                                <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                    <div class="inline-mr-2">
+                                        <img src="assets/images/car.png" class=" w-5  ">
+                                    </div>
+                                    <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                        Automotive
+                                    </span>
+
+                                </a>
+                            </li>
+                            <li class="list-unstyled ">
+                                <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                    <div class="inline-mr-2">
+                                        <img src="assets/images/health.png" class=" w-5  ">
+                                    </div>
+                                    <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                        Health and Care
+                                    </span>
+
+                                </a>
+                            </li>
+                            <li class="list-unstyled ">
+                                <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                    <div class="inline-mr-2">
+                                        <img src="assets/images/camera.png" class=" w-5  ">
+                                    </div>
+                                    <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                        Camera
+                                    </span>
+
+                                </a>
+                            </li>
+                            <li class="list-unstyled ">
+                                <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                    <div class="inline-mr-2">
+                                        <img src="assets/images/audio.png" class=" w-5  ">
+                                    </div>
+                                    <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                        Home Audio and Theatre
+                                    </span>
+
+                                </a>
+                            </li>
+                            <li class="list-unstyled ">
+                                <a href="#" class="d-flex py-1 flex items-center l-height roboto-new font-normal">
+                                    <div class="inline-mr-2">
+                                        <img src="assets/images/more.png " class=" w-5  ">
+                                    </div>
+                                    <span class="li-a roboto-new tracking-wide roboto-new t-grey ">
+                                        More
+                                    </span>
+
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 ">
+                    <!-- Carousel -->
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                        <!-- Indicators/dots -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                        </div>
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/row1mid1.png" alt="Los Angeles" class="d-block" style="width:100%;max-height: 310px; min-height: 410px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/row-1-mid2.png" alt="Chicago" class="d-block" style="width:100%;min-height: 410px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/row1mid3.jpg" alt="New York" class="d-block" style="width:100%;min-height: 410px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/row1mid4.png" alt="New York" class="d-block" style="width:100%;min-height: 410px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/row1mid5.png" alt="New York" class="d-block" style="width:100%;min-height: 410px;">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 ">
+                    <div class="row1-col3 ">
+                        <div class="img-hover-zoom img-hover-zoom--xyz ">
+                            <a href="# ">
+                                <img src="assets/images/row1right1.jpg " alt="Another Image zoom-on-hover effect " style="width: 100%; height:100%; ">
+                            </a>
+                        </div>
+                        <div class="img-hover-zoom img-hover-zoom--xyz ">
+                            <a href="# ">
+                                <img src="assets/images/row1right2.png " alt="Another Image zoom-on-hover effect " style="width: 100%; height: 100%;  ">
+                            </a>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ROW 1 RESPONSIVE  -->
+    <div class="row-1-r">
+        <div class="container">
+            <section>
+
+                <div class="owl-carousel owl-theme owl-loaded">
+                    <div class="item">
+                        <a class="ge">
+                            <img src="assets/images/appliances.png" style="width: 3rem; margin: 0px auto;"> Appliances
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a class="ge">
+                            <img src="assets/images/mobile.png" style="width: 3rem; margin: 0px auto;"> Mobiles
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a class="ge">
+                            <img src="assets/images/mens.png" style="width: 3rem; margin: 0px auto;"> Men
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a class="ge">
+                            <img src="assets/images/health.png" style="width: 3rem; margin: 0px auto;"> Health
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a class="ge">
+                            <img src="assets/images/woman.png" style="width: 3rem; margin: 0px auto;"> Women
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a class="ge">
+                            <img src="assets/images/tv.png" style="width: 3rem; margin: 0px auto;"> Tv
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a class="ge">
+                            <img src="assets/images/kids.png" style="width: 3rem; margin: 0px auto;"> Kids
+                        </a>
+                    </div>
+
+
+
+
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="names py-2">
+            <div class="name1">
+                Flash Deals
+            </div>
+            <div class="name2">
+                VIEW ALL
+            </div>
+        </div>
+    </div>
+
+    <!-- ROW 2 FLASH DEALS  -->
+    <div class="row-2">
+        <div class="container">
+            <div class="row p-0">
+                <div class="col-md-2" style="padding-right: 0px;">
+                    <img src="assets/images/row2-1.png" style="width: 100%; height: 24rem; ">
+                </div>
+                <div class="col-md-10" style="padding-left: 0px;">
+
+                    <section class="deals">
+                        <div class="card-block">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="off">
+                                                20% OFF
+                                            </div>
+                                            <div class="item-img">
+                                                <img src="assets/images/row2-earbuds.png" alt="" width="100%">
+                                            </div>
+                                            <figcaption class="item-info text-start">
+                                                <div class="item-name">
+                                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing .</p>
+                                                </div>
+                                                <span class="item-rating">
+                               4.00 <i class="fa-solid fa-star fa-sm"></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="off">
+                                                9% OFF
+                                            </div>
+                                            <div class="item-img">
+                                                <img src="assets/images/row2-watch.png" alt="" width="100%">
+                                            </div>
+                                            <figcaption class="item-info text-start">
+                                                <div class="item-name">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                                                <span class="item-rating">
+                               4.00 <i class="fa-solid fa-star fa-sm"></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="off">
+                                                6% OFF
+                                            </div>
+                                            <div class="item-img">
+                                                <img src="assets/images/row2-tv.jpg" alt="" width="100%">
+                                            </div>
+                                            <figcaption class="item-info text-start">
+                                                <div class="item-name">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                                                <span class="item-rating">
+                               4.00 <i class="fa-solid fa-star fa-sm"></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="off">
+                                                10% OFF
+                                            </div>
+                                            <div class="item-img">
+                                                <img src="assets/images/row2-pillow.jpg" alt="" width="100%">
+                                            </div>
+                                            <figcaption class="item-info text-start">
+                                                <div class="item-name">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                                                <span class="item-rating">
+                               4.00 <i class="fa-solid fa-star fa-sm"></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="off">
+                                                10% OFF
+                                            </div>
+                                            <div class="item-img">
+                                                <img src="assets/images/row2-cooler.jpg" alt="" width="100%">
+                                            </div>
+                                            <figcaption class="item-info text-start">
+                                                <div class="item-name">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                                                <span class="item-rating">
+                               4.00 <i class="fa-solid fa-star fa-sm"></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="off">
+                                                10% OFF
+                                            </div>
+                                            <div class="item-img">
+                                                <img src="assets/images/row2-kitchen.jpg" alt="" width="100%">
+                                            </div>
+                                            <figcaption class="item-info text-start">
+                                                <div class="item-name">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                                                <span class="item-rating">
+                               4.00 <i class="fa-solid fa-star fa-sm"></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- .ROW-2-RESPONSIVE  -->
+    <div class="row-2-r">
+        <div class="container">
+            <div id="demo" class="carousel slide mt-3" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/row1mid1.png" alt="Los Angeles" class="d-block" style="width:100%;height: 220px; border-radius: 30px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/row-1-mid2.png" alt="Chicago" class="d-block" style="width:100%;height: 220px; border-radius: 30px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/row1mid3.jpg" alt="New York" class="d-block" style="width:100%;height: 220px; border-radius: 30px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/row1mid4.png" alt="New York" class="d-block" style="width:100%;height: 220px; border-radius: 30px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/row1mid5.png" alt="New York" class="d-block" style="width:100%; height: 220px; border-radius: 30px;">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="names">
+            <div class="name1">
+                Mobile & Tablets
+            </div>
+            <div class="name2">
+                VIEW ALL
+            </div>
+        </div>
+    </div>
+    <!-- ROW 3 MOBILES AND TABLETS -->
+    <div class="row-2">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-2" style="padding-right: 0px; ">
+                    <img src="assets/images/row3-1.png" style="width: 100%; height: 24rem !important;">
+                </div>
+                <div class="col-md-10 " style="padding-left: 0px; ">
+
+                    <section class="deals">
+                        <div class="card-block">
+                            <div class="owl-carousel owl-theme" style="padding: 0px 0px;">
+                                <div class="item">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="off">
+                                                20% OFF
+                                            </div>
+                                            <div class="item-img">
+                                                <img src="assets/images/row3-2.jpg" alt="" width="100%">
+                                            </div>
+                                            <figcaption class="item-info text-start">
+                                                <div class="item-name">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating">
+                                   4.00 <i class="fa-solid fa-star fa-sm"></i> 
+                           </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="off">
+                                                9% OFF
+                                            </div>
+                                            <div class="item-img">
+                                                <img src="assets/images/row3-3.jpg" alt="" width="100%">
+                                            </div>
+                                            <figcaption class="item-info text-start">
+                                                <div class="item-name">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating">
+                                   4.00 <i class="fa-solid fa-star fa-sm"></i> 
+                           </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="off">
+                                                6% OFF
+                                            </div>
+                                            <div class="item-img">
+                                                <img src="assets/images/row3-4.jpg" alt="" width="100%">
+                                            </div>
+                                            <figcaption class="item-info text-start">
+                                                <div class="item-name">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating">
+                                   4.00 <i class="fa-solid fa-star fa-sm"></i> 
+                           </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="off">
+                                                10% OFF
+                                            </div>
+                                            <div class="item-img">
+                                                <img src="assets/images/row3-5.jpg" alt="" width="100%">
+                                            </div>
+                                            <figcaption class="item-info text-start">
+                                                <div class="item-name">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating">
+                                   4.00 <i class="fa-solid fa-star fa-sm"></i> 
+                           </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="off">
+                                                10% OFF
+                                            </div>
+                                            <div class="item-img">
+                                                <img src="assets/images/row3-6.png" alt="" width="100%">
+                                            </div>
+                                            <figcaption class="item-info text-start">
+                                                <div class="item-name">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating">
+                                   4.00 <i class="fa-solid fa-star fa-sm"></i> 
+                           </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="off">
+                                                10% OFF
+                                            </div>
+                                            <div class="item-img">
+                                                <img src="assets/images/row3-7.jpg" alt="" width="100%">
+                                            </div>
+                                            <figcaption class="item-info text-start">
+                                                <div class="item-name">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating">
+                                   4.00 <i class="fa-solid fa-star fa-sm"></i> 
+                           </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="names py-2">
+            <div class="name1">
+                Appliances
+            </div>
+            <div class="name2">
+                VIEW ALL
+            </div>
+        </div>
+    </div>
+
+    <!-- .ROW 3 RESPONSIVE flash deals  -->
+    <div class="row-3-r">
+        <div class="container mt-3" style="background-color: rgb(255, 0, 0);">
+
+            <div class="r-names d-flex py-3">
+                <h6 class="text-light">Flash Deals</h6>
+                <div class="r-name2">
+                    VIEW ALL
+                </div>
+            </div>
+
+            <div class="flash-grid">
+                <div class="grid-items grid-cols-12 py-3 px-3" style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201);">
+                    <a href="#">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row2-earbuds.png" style="width: 120px;">
+                            <div class="p-top text-start">
+                                <h5 class="p-heading p-0">Wireless Earbuds</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid-items grid-cols-12 py-3 px-3" style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201);">
+                    <a href="#">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row2-watch.png" style="width: 120px;">
+                            <div class="p-top text-start">
+                                <h5 class="p-heading p-0">Watches</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-items grid-cols-12 py-3 px-3" style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201);">
+                    <a href="#">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row2-ac.png" style="width: 120px;">
+                            <div class="p-top text-start">
+                                <h5 class="p-heading p-0">Air Conditioner</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-items grid-cols-12 py-3 px-3" style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201);">
+                    <a href="#">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row2-sofa.jpg" style="width: 120px;">
+                            <div class="p-top text-start">
+                                <h5 class="p-heading p-0">Sofa</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- ROW 4 APPLIANCES -->
+    <div class="row-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2" style="padding-right: 0px;">
+                    <img src="assets/images/row4-1.png" style="height: 24rem; width: 100%;">
+                </div>
+                <div class="col-md-10" style=" padding-left: 0px;">
+
+                    <section class="deals">
+                        <div class="card-block">
+                            <div class="owl-carousel owl-theme" style="padding: 0px 0px;">
+                                <div class="item">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="off">
+                                                20% OFF
+                                            </div>
+                                            <div class="item-img">
+                                                <img src="assets/images/row4-2.jpg" alt="" width="100%">
+                                            </div>
+                                            <figcaption class="item-info text-start">
+                                                <div class="item-name">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating">
+                               4.00 <i class="fa-solid fa-star fa-sm"></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="item-img">
+                                                <img src="assets/images/row4-3.jpg" alt="" width="100%">
+                                            </div>
+                                            <figcaption class="item-info text-start">
+                                                <div class="item-name">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating">
+                               4.00 <i class="fa-solid fa-star fa-sm"></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="item-img">
+                                                <img src="assets/images/row4-4.gif" alt="" width="100%">
+                                            </div>
+                                            <figcaption class="item-info text-start">
+                                                <div class="item-name">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating">
+                               4.00 <i class="fa-solid fa-star fa-sm"></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="item-img">
+                                                <img src="assets/images/row4-5.jpg" alt="" width="100%">
+                                            </div>
+                                            <figcaption class="item-info text-start">
+                                                <div class="item-name">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating">
+                               4.00 <i class="fa-solid fa-star fa-sm"></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="item-img">
+                                                <img src="assets/images/row4-6.jpg" alt="" width="100%">
+                                            </div>
+                                            <figcaption class="item-info text-start">
+                                                <div class="item-name">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating">
+                               4.00 <i class="fa-solid fa-star fa-sm"></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure>
+                                        <a href="#">
+                                            <div class="item-img">
+                                                <img src="assets/images/row4-7.jpg" alt="" width="100%">
+                                            </div>
+                                            <figcaption class="item-info text-start">
+                                                <div class="item-name">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating">
+                               4.00 <i class="fa-solid fa-star fa-sm"></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ROW-4-RESPONSIVE  -->
+    <div class="row-3-r">
+        <div class="container mt-3" style="background-color: blue">
+
+            <div class="r-names d-flex py-3">
+                <h6 class="text-light">Mobile and Tablets</h6>
+                <div class="r-name2">
+                    VIEW ALL
+                </div>
+            </div>
+
+            <div class="flash-grid">
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row3-5.jpg " style="width: 120px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 ">Mobile</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row3-2.jpg " style="width: 120px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 ">Mobile</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row3-3.jpg " style="width: 120px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 ">Mobile</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row3-4.jpg " style="width: 120px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 ">Mobile</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ROW 5  -->
+    <div class="row-5 ">
+        <div class="container ">
+            <img src="assets/images/row 5.png " style="width: 100%; height: 100%; ">
+        </div>
+    </div>
+
+    <div class="container ">
+        <div class="names py-2 ">
+            <div class="name1 ">
+                Feature Brands
+            </div>
+            <div class="name2 ">
+                VIEW ALL
+            </div>
+        </div>
+    </div>
+
+    <!-- ROW-5 RESPONSIVE  -->
+    <div class="row-3-r">
+        <div class="container mt-3" style="background-color: orange">
+
+            <div class="r-names d-flex py-3">
+                <h6 class="text-light">Appliances</h6>
+                <div class="r-name2">
+                    VIEW ALL
+                </div>
+            </div>
+
+            <div class="flash-grid">
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row4-2.jpg " style="width: 120px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 ">Appliances</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row4-3.jpg " style="width: 120px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 ">Appliances</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row4-4.gif " style="width: 120px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 ">Appliances</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row4-5.jpg " style="width: 120px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 ">Appliances</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ROW 6 feature and brands  -->
+    <div class="row6 ">
+        <div class="container ">
+            <div class="row ">
+                <div class="row6-items p-0 ">
+                    <div class="col-sm-2 mx-0 ">
+                        <div class="r6-i ">
+                            <img src="assets/images/row6-1.jpg ">
+                            <h6 class="text-center ">DJI</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-p-0 ">
+                        <div class="r6-i ">
+                            <img src="assets/images/row6-2.png ">
+                            <h6 class="text-center ">Panasonic</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-2 mx-0 ">
+                        <div class="r6-i ">
+                            <img src="assets/images/row6-3.png ">
+                            <h6 class="text-center ">Realme</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-2 mx-0 ">
+                        <div class="r6-i ">
+                            <img src="assets/images/row6-4.jpg ">
+                            <h6 class="text-center ">Toyishland</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-2 mx-0 ">
+                        <div class="r6-i ">
+                            <img src="assets/images/row6-5.jpg ">
+                            <h6 class="text-center ">Layesha</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-2 mx-0 ">
+                        <div class="r6-i ">
+                            <img src="assets/images/row6-6.jpg ">
+                            <h6 class="text-center ">Loshu</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container ">
+        <div class="names py-2 ">
+            <div class="name1 ">
+                Computer and Games
+            </div>
+            <div class="name2 ">
+                VIEW ALL
+            </div>
+        </div>
+    </div>
+
+    <!-- ROW 6 RESPONSIVE  -->
+    <div class="row-6-r" style="display: none;">
+        <div class="container mt-3">
+            <img src="assets/images/row1right1.jpg" style="width: 100%;">
+        </div>
+
+    </div>
+
+
+    <!-- ROW 7 Featured brands SLIDER RESPONSIVE  -->
+    <div class="row-7-r">
+
+        <div class="container ">
+            <div class="r-names d-flex py-3">
+                <h6 class="text-dark">Featured Brands</h6>
+                <div class="r-name2">
+                    VIEW ALL
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <main class="main px-0">
+
+                <div class="scroll">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/images/row6-1.jpg" loading="lazy" class="responsive" alt="Images" style="width: 100%;">
+                        </div>
+                        <div class="card-inner">
+                            <h3 class="text text-title">DJI</h3>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/images/row6-2.png" loading="lazy" class="responsive" alt="Images" style="width: 100%;">
+                        </div>
+                        <div class="card-inner">
+                            <h3 class="text text-title">DJI</h3>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/images/row6-3.png" loading="lazy" class="responsive" alt="Images" style="width: 100%;">
+                        </div>
+                        <div class="card-inner">
+                            <h3 class="text text-title">DJI</h3>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/images/row6-4.jpg" loading="lazy" class="responsive" alt="Images" style="width: 100%;">
+                        </div>
+                        <div class="card-inner">
+                            <h3 class="text text-title">DJI</h3>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/images/row6-5.jpg" loading="lazy" class="responsive" alt="Images" style="width: 100%;">
+                        </div>
+                        <div class="card-inner">
+                            <h3 class="text text-title">DJI</h3>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/images/row6-6.jpg" loading="lazy" class="responsive" alt="Images" style="width: 100%;">
+                        </div>
+                        <div class="card-inner">
+                            <h3 class="text text-title">DJI</h3>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- ROW 8 Responsive COMPUTER AND GAMING GRID -->
+    <div class="row-3-r">
+        <div class="container mt-3" style="background-color: grey">
+
+            <div class="r-names d-flex py-3">
+                <h6 class="text-light">Computer and Gaming</h6>
+                <div class="r-name2">
+                    VIEW ALL
+                </div>
+            </div>
+
+            <div class="flash-grid">
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row7-2.jpg" style="width: 120px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 ">Computer and Gaming</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row7-3.jpg" style="width: 120px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 ">Computer and Gaming</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row7-4.jpg " style="width: 120px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 ">Computer and Gaming</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row7-5.jpg " style="width: 120px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 ">Computer and Gaming</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ROW 9 RESPONSIVE CATEGORIES GRID -->
+    <div class="row-9-r">
+        <div class="container ">
+            <div class="r-names d-flex py-3">
+                <h6 class="text-dark">Categories</h6>
+                <div class="r-name2">
+                    VIEW ALL
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="cat-grid cols-span-12 text-center">
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 4/span 4; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/mobile.png" style="width: 60px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 text-center">Mobile</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 4/span 4; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/health.png" style="width: 60px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p- text-center ">Health</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 4/span 4; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/kids.png" style="width: 60px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 text-center ">Kids</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 4/span 4; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/woman.png" style="width: 60px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 text-center ">Women</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 4/span 4; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/tv.png" style="width: 60px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 text-center">Televisions</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 4/span 4; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/camera.png" style="width: 60px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 text-center">Camera</h5>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 4/span 4; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/computer.png" style="width: 60px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 text-center">Computer and gaming</h5>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 4/span 4; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/car.png" style="width: 60px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 text-center">Cars</h5>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 4/span 4; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/home.png" style="width: 60px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 text-center">Home</h5>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ROW 10 RESPONSIVE MENS FASHION  -->
+    <div class="row-3-r">
+        <div class="container mt-3" style="background-color: rgb(0, 0, 0)">
+
+            <div class="r-names d-flex py-3">
+                <h6 class="text-light">Men's Fashion</h6>
+                <div class="r-name2">
+                    VIEW ALL
+                </div>
+            </div>
+
+            <div class="flash-grid">
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row4-2.jpg " style="width: 120px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 ">Appliances</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row4-3.jpg " style="width: 120px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 ">Appliances</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row4-4.gif " style="width: 120px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 ">Appliances</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-items grid-cols-12 py-3 px-3 " style="background-color: rgb(255, 255, 255); grid-column: span 6/span 6; border-right:1px solid rgb(201, 201, 201); border-bottom: 1px solid rgb(201, 201, 201); ">
+                    <a href="# ">
+                        <div class="popular-2-a ">
+                            <img src="assets/images/row4-5.jpg " style="width: 120px; ">
+                            <div class="p-top text-start ">
+                                <h5 class="p-heading p-0 ">Appliances</h5>
+                                <div class="item-price text-start ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ROW 11 RESPONSIVE  -->
+    <div class="row-6-r" style="display: none;">
+        <div class="container mt-3">
+            <img src="assets/images/row11-2.jpg" style="width: 100%;">
+        </div>
+
+    </div>
+
+    <!-- ROW 12 RESPONSIVE  -->
+    <div class="row-12-r ">
+        <div class="container ">
+            <div class="row mt-3 ">
+                <div class="col-md-6 ">
+                    <a href=" ">
+                        <img src="assets/images/row12-1.png " style="width: 100%; height: 100%; max-width: 100%; ">
+                    </a>
+                </div>
+
+                <div class="col-md-6 m-auto ">
+                    <div class="download-text-box " style="margin-left: 40px; ">
+                        <h6>
+                            Download Telemart App <br> Now
+                        </h6>
+                        <p>
+                            Fast, Simple & Delightful. <br> All it takes is 30 seconds to Download.
+                        </p>
+                        <!-- App Store button -->
+                        <a href="https://www.kobinet.com.tr/ " target="_blank " class="market-btn apple-btn " role="button ">
+
+                            <span class="market-button-subtitle ">Download on the</span>
+                            <span class="market-button-title ">App Store</span>
+                        </a>
+
+                        <!-- Google Play button -->
+                        <a href="https://www.kobinet.com.tr/ " target="_blank " class="market-btn google-btn " role="button ">
+                            <span class="market-button-subtitle ">Download on the</span>
+                            <span class="market-button-title ">Google Play</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ROW 7  Computer and Games  -->
+    <div class="row-2 ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-2 " style="padding-right: 0px; ">
+                    <img src="assets/images/row7-1.png " style="width: 100%; height: 24rem; ">
+                </div>
+                <div class="col-md-10 " style=" padding-left: 0px; ">
+
+                    <section class="deals ">
+                        <div class="card-block ">
+                            <div class="owl-carousel owl-theme " style="padding: 0px 0px; ">
+                                <div class="item ">
+                                    <figure>
+                                        <a href="# ">
+                                            <div class="off ">
+                                                20% OFF
+                                            </div>
+                                            <div class="item-img ">
+                                                <img src="assets/images/row7-2.jpg " alt=" " width="100% ">
+                                            </div>
+                                            <figcaption class="item-info text-start ">
+                                                <div class="item-name ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating ">
+                               4.00 <i class="fa-solid fa-star fa-sm "></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item ">
+                                    <figure>
+                                        <a href="# ">
+                                            <div class="off ">
+                                                9% OFF
+                                            </div>
+                                            <div class="item-img ">
+                                                <img src="assets/images/row7-3.jpg " alt=" " width="100% ">
+                                            </div>
+                                            <figcaption class="item-info text-start ">
+                                                <div class="item-name ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating ">
+                               4.00 <i class="fa-solid fa-star fa-sm "></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item ">
+                                    <figure>
+                                        <a href="# ">
+                                            <div class="off ">
+                                                6% OFF
+                                            </div>
+                                            <div class="item-img ">
+                                                <img src="assets/images/row7-4.jpg " alt=" " width="100% ">
+                                            </div>
+                                            <figcaption class="item-info text-start ">
+                                                <div class="item-name ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating ">
+                               4.00 <i class="fa-solid fa-star fa-sm "></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item ">
+                                    <figure>
+                                        <a href="# ">
+                                            <div class="off ">
+                                                10% OFF
+                                            </div>
+                                            <div class="item-img ">
+                                                <img src="assets/images/row7-5.jpg " alt=" " width="100% ">
+                                            </div>
+                                            <figcaption class="item-info text-start ">
+                                                <div class="item-name ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating ">
+                               4.00 <i class="fa-solid fa-star fa-sm "></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item ">
+                                    <figure>
+                                        <a href="# ">
+                                            <div class="off ">
+                                                10% OFF
+                                            </div>
+                                            <div class="item-img ">
+                                                <img src="assets/images/row7-6.jpg " alt=" " width="100% ">
+                                            </div>
+                                            <figcaption class="item-info text-start ">
+                                                <div class="item-name ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating ">
+                               4.00 <i class="fa-solid fa-star fa-sm "></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item ">
+                                    <figure>
+                                        <a href="# ">
+                                            <div class="off ">
+                                                10% OFF
+                                            </div>
+                                            <div class="item-img ">
+                                                <img src="assets/images/row7-7.jpg " alt=" " width="100% ">
+                                            </div>
+                                            <figcaption class="item-info text-start ">
+                                                <div class="item-name ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating ">
+                               4.00 <i class="fa-solid fa-star fa-sm "></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="names py-2 ">
+            <div class="name1 ">
+                Men's Fashion
+            </div>
+            <div class="name2 ">
+                VIEW ALL
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ROW 8   Men's Fashion  -->
+    <div class="row-2 ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-2 " style="padding-right: 0px; ">
+                    <img src="assets/images/row8-1.png " style="width: 100%; height: 24rem; ">
+                </div>
+                <div class="col-md-10 p-0 " style=" padding: 0px; ">
+
+                    <section class="deals ">
+                        <div class="card-block ">
+                            <div class="owl-carousel owl-theme " style="padding: 0px 0px; ">
+                                <div class="item ">
+                                    <figure>
+                                        <a href="# ">
+                                            <div class="off ">
+                                                20% OFF
+                                            </div>
+                                            <div class="item-img ">
+                                                <img src="assets/images/row7-2.jpg " alt=" " width="100% ">
+                                            </div>
+                                            <figcaption class="item-info text-start ">
+                                                <div class="item-name ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating ">
+                               4.00 <i class="fa-solid fa-star fa-sm "></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item ">
+                                    <figure>
+                                        <a href="# ">
+                                            <div class="off ">
+                                                9% OFF
+                                            </div>
+                                            <div class="item-img ">
+                                                <img src="assets/images/row7-3.jpg " alt=" " width="100% ">
+                                            </div>
+                                            <figcaption class="item-info text-start ">
+                                                <div class="item-name ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating ">
+                               4.00 <i class="fa-solid fa-star fa-sm "></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item ">
+                                    <figure>
+                                        <a href="# ">
+                                            <div class="off ">
+                                                6% OFF
+                                            </div>
+                                            <div class="item-img ">
+                                                <img src="assets/images/row7-4.jpg " alt=" " width="100% ">
+                                            </div>
+                                            <figcaption class="item-info text-start ">
+                                                <div class="item-name ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating ">
+                               4.00 <i class="fa-solid fa-star fa-sm "></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item ">
+                                    <figure>
+                                        <a href="# ">
+                                            <div class="off ">
+                                                10% OFF
+                                            </div>
+                                            <div class="item-img ">
+                                                <img src="assets/images/row7-5.jpg " alt=" " width="100% ">
+                                            </div>
+                                            <figcaption class="item-info text-start ">
+                                                <div class="item-name ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating ">
+                               4.00 <i class="fa-solid fa-star fa-sm "></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item ">
+                                    <figure>
+                                        <a href="# ">
+                                            <div class="off ">
+                                                10% OFF
+                                            </div>
+                                            <div class="item-img ">
+                                                <img src="assets/images/row7-6.jpg " alt=" " width="100% ">
+                                            </div>
+                                            <figcaption class="item-info text-start ">
+                                                <div class="item-name ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating ">
+                               4.00 <i class="fa-solid fa-star fa-sm "></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="item ">
+                                    <figure>
+                                        <a href="# ">
+                                            <div class="off ">
+                                                10% OFF
+                                            </div>
+                                            <div class="item-img ">
+                                                <img src="assets/images/row7-7.jpg " alt=" " width="100% ">
+                                            </div>
+                                            <figcaption class="item-info text-start ">
+                                                <div class="item-name ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam.</div>
+                                                <span class="item-rating ">
+                               4.00 <i class="fa-solid fa-star fa-sm "></i> 
+                       </span> (0)
+                                                <div class="item-price ">Rs 1,900 <s class="text-danger ">Rs 2000</s> </div>
+
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ROW 9  -->
+    <div class="row-9 ">
+        <div class="container ">
+            <div class="row mt-3 ">
+                <div class="col-md-4 ">
+                    <a href=" ">
+                        <img src="assets/images/row9-1.png " alt=" " class="w-100 " style="width: 100%; height: 100%; max-width: 100%; ">
+                    </a>
+                </div>
+
+                <div class="col-md-4 ">
+                    <a href=" ">
+                        <img src="assets/images/row9-2.png " alt=" " class="w-100 " style="width: 100%; height: 100%; max-width: 100%; ">
+                    </a>
+
+
+                </div>
+
+                <div class="col-md-4 ">
+                    <a href=" ">
+                        <img src="assets/images/row9-3.png " alt=" " class="w-100 " style="width: 100%; height: 100%; max-width: 100%; ">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ROW 10 MOST POPULAR -->
+
+    <div class="container ">
+        <div class="names py-2 ">
+            <div class="name1 ">
+                Most Popular
+            </div>
+            <div class="name2 ">
+                VIEW ALL
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row10 ">
+        <div class="container ">
+            <div class="grid-items row-span-2 " style="grid-row: span 2/span 2; ">
+                <a href="# ">
+                    <div class="popular-1st text-center " style="background: rgb(231, 229, 229); height: auto; padding-bottom: 48px; ">
+                        <img src="assets/images/row10-1.png " class="w-80px mt-5 ">
+                        <div class="p-1st-des ">
+                            <h6 class="p-heading " style="padding-top: 30px; ">Lighting and Studio</h6>
+                            <p class="p-para ">27 Products</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-items " style="background-color: rgb(252, 252, 234); ">
+                <a href="# ">
+                    <div class="popular-2-a d-flex ">
+                        <img src="assets/images/row10-2.png " class="w-80px ">
+                        <div class="p-top ">
+                            <h6 class="p-heading ">Accessories</h6>
+                            <p class="p-para ">120 Products</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-items " style="background-color: rgb(251, 234, 252); ">
+                <a href="# ">
+                    <div class="popular-2-a d-flex ">
+                        <img src="assets/images/row10-3.png " class="w-80px ">
+                        <div class="p-top ">
+                            <h6 class="p-heading ">Accessories</h6>
+                            <p class="p-para ">140 Products</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-items " style="background-color: rgb(225, 236, 254); ">
+                <a href="# ">
+                    <div class="popular-2-a d-flex ">
+                        <img src="assets/images/row10-4.png " class="w-80px ">
+                        <div class="p-top ">
+                            <h6 class="p-heading ">Cables</h6>
+                            <p class="p-para ">140 Products</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-items " style="background-color: rgb(255, 240, 226); ">
+                <a href="# ">
+                    <div class="popular-2-a d-flex ">
+                        <img src="assets/images/row10-5.png " class="w-80px ">
+                        <div class="p-top ">
+                            <h6 class="p-heading ">Furniture</h6>
+                            <p class="p-para ">40 Products</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-items " style="background-color: rgb(252, 252, 234); ">
+                <a href="# ">
+                    <div class="popular-2-a d-flex ">
+                        <img src="assets/images/row10-6.png " class="w-80px ">
+                        <div class="p-top ">
+                            <h6 class="p-heading ">Matress</h6>
+                            <p class="p-para ">40 Products</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-items " style="background-color: rgb(251, 234, 252); ">
+                <a href="# ">
+                    <div class="popular-2-a d-flex ">
+                        <img src="assets/images/row10-7.png " class="w-80px ">
+                        <div class="p-top ">
+                            <h6 class="p-heading ">Towels</h6>
+                            <p class="p-para ">60 Products</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-items " style="background-color: rgb(225, 236, 254); ">
+                <a href="# ">
+                    <div class="popular-2-a d-flex ">
+                        <img src="assets/images/row10-8.png " class="w-80px ">
+                        <div class="p-top ">
+                            <h6 class="p-heading ">Khusass</h6>
+                            <p class="p-para ">140 Products</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-items " style="background-color: rgb(255, 240, 226); ">
+                <a href="# ">
+                    <div class="popular-2-a d-flex ">
+                        <img src="assets/images/row10-9.png " class="w-80px ">
+                        <div class="p-top ">
+                            <h6 class="p-heading ">T-Shirts</h6>
+                            <p class="p-para ">840 Products</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- ROW 11 TWO IMAGES  -->
+    <div class="row11 ">
+        <div class="container ">
+            <div class="row mt-3 ">
+                <div class="col-md-6 ">
+                    <a href=" ">
+                        <img src="assets/images/row11-1.jpg " style="width: 100%; height: 100%; max-width: 100%; ">
+                    </a>
+                </div>
+
+                <div class="col-md-6 ">
+                    <a href=" ">
+                        <img src="assets/images/row11-2.jpg " style="width: 100%; height: 100%; max-width: 100%; ">
+                    </a>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ROW 12 DOWNLOAD APP NOW -->
+    <div class="row12 ">
+        <div class="container ">
+            <div class="row mt-3 ">
+                <div class="col-md-6 ">
+                    <a href=" ">
+                        <img src="assets/images/row12-1.png " style="width: 100%; height: 100%; max-width: 100%; ">
+                    </a>
+                </div>
+
+                <div class="col-md-6 m-auto ">
+                    <div class="download-text-box " style="margin-left: 40px; ">
+                        <h1>
+                            Download Telemart App <br> Now
+                        </h1>
+                        <h6>
+                            Fast, Simple & Delightful. <br> All it takes is 30 seconds to Download.
+                        </h6>
+                        <!-- App Store button -->
+                        <a href="https://www.kobinet.com.tr/ " target="_blank " class="market-btn apple-btn " role="button ">
+
+                            <span class="market-button-subtitle ">Download on the</span>
+                            <span class="market-button-title ">App Store</span>
+                        </a>
+
+                        <!-- Google Play button -->
+                        <a href="https://www.kobinet.com.tr/ " target="_blank " class="market-btn google-btn " role="button ">
+                            <span class="market-button-subtitle ">Download on the</span>
+                            <span class="market-button-title ">Google Play</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ROW 13 LAST CONTENT  -->
+    <div class="container py-4 ">
+        <h4 class="bold-H ">The Trusted Online Shopping Store in Pakistan</h4>
+        <p class="c-size ">Telemart, is a known name in the e-commerce sphere of Pakistan, owned by Tradelink enterprise. The parent company, Tradelink, has been dealing in electronics and selling mobile phones in Pakistan since 1991. <br> Telemart, is an identity specifically
+            created to cater the needs of today’s customer. To bridge the demand and supply gap, Telemart, was one of the first to set-up a full range online store making shopping convenient for the customers. The online store as well as retail outlets
+            spread nationwide, both gained trust through excellent customer service, 100% original products, exclusive product availability and competitive pricing. Since the beginning, Telemart, have maintained its credibility, our customers' loyalty
+            with us have not changed over the years due to our commitment to quality and honesty. <br> As <a href=" "> online shopping </a> in Pakistan is becoming a growing trend, and many people are shifting towards it, we realise our position and we
+            responsibly fulfil the expectations of the customers. Telemart is specialized in product categories such as consumer electronics,<a href="
+                "> mobile phones, mobile accessories, home appliances, home entertainment products, gaming computers, laptops, tech and gadgets, graphic card, smart watches </a> and now <a href=" "> men's fashion </a> and <a href=" "> women's fashion </a>            is added to the list too. <br> Telemart is highly credited in the corporate sector as well. We have been serving companies and institutions for years, they have laid their trust upon us while purchasing systems and equipment for their employees.</p>
+
+        <h4 class="bold-H ">Online Shopping in Pakistan at Its Finest.</h4>
+        <p class="c-size ">One thing we do not compromise on is Trust of the people who are coming on our website. While shopping online is still considered risky in pakistan, we make sure our customers are provided with detailed information and complete support throughout
+            their journey from order placing to shipment to after-sales service. We are the trusted and preferred choice of seller when it comes to online shopping in Pakistan with our customer centric approach, top-notch quality, free delivery options,
+            easy return policies and secure payment, we share great pride in providing only the best.</p>
+        <h5 class="bold-H ">Exclusive Online Shopping Experience</h5>
+        <p class="c-size ">Telemart is not just another online platform offering different categories of products, it is an experience we want to give to the people of Pakistan that changes their perspective of online shopping. We believe in providing value for money as
+            well as the time invested in buying a product. Our processes are transparent, we keep our customers in loop from the time of order placement until order receiving. <br> If you are here searching for mobile prices in Pakistan, looking for the
+            latest apple iphone or samsung mobiles, gold plated phones or a product for lifestyle modification, you have landed at the right place.</p>
+    </div>
+
+    <!-- FOOTER  -->
+
+    <footer>
+        <div class="container px-5 py-3 ">
+            <div class="row px-5 py-3 " style="border-bottom: 2px solid white; ">
+                <div class="col-md-2 ">
+                    <h6>
+                        About
+                    </h6>
+                    <ul class="p-0 ">
+                        <li>
+                            <a href="# "> About Us</a>
+                        </li>
+                        <li>
+                            <a href="# "> Telemart Corporate</a>
+                        </li>
+                        <li>
+                            <a href="# "> Takaful Islamic Insurance</a>
+                        </li>
+                        <li>
+                            <a href="# ">
+            Careers</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 ">
+                    <h6>
+                        Help
+                    </h6>
+                    <ul class="p-0 ">
+
+                        <li>
+                            <a href="# ">  Payment Information</a>
+                        </li>
+                        <li>
+                            <a href="# ">Shipping Information</a>
+                        </li>
+                        <li>
+                            <a href="# ">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="# ">Telemart Offline Stores</a>
+                        </li>
+                        <li>
+                            <a href="# ">
+            Helpdesk / Support</a>
+                        </li>
+                        <li>
+                            <a href="# ">
+            Smartphone Financing</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 ">
+                    <h6>
+                        Policy
+                    </h6>
+                    <ul class="p-0 ">
+
+                        <li>
+                            <a href="# ">Return Policy</a>
+                        </li>
+                        <li>
+                            <a href="# ">Terms & Condition</a>
+                        </li>
+                        <li>
+                            <a href="# ">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="# ">Warranty</a>
+                        </li>
+                        <li>
+                            <a href="# ">
+            Price Beating</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 ">
+                    <h6>
+                        Social
+                    </h6>
+                    <ul class="p-0 ">
+
+                        <li>
+                            <a href="# "><i class="fa-brands fa-facebook fa-lg " style="color: #ffffff; margin-right: 7px; "></i> Facebook</a>
+                        </li>
+                        <li>
+                            <a href="# "><i class="fa-brands fa-twitter fa-lg " style="color: #ffffff; margin-right: 7px; "></i>Twitter</a>
+                        </li>
+                        <li>
+                            <a href="# "><i class="fa-brands fa-instagram fa-lg " style="color: #ffffff; margin-right: 7px; "></i>Instagram</a>
+                        </li>
+                        <li>
+                            <a href="# "><i class="fa-brands fa-snapchat fa-lg " style="color: #ffffff; margin-right: 7px; "></i>Snapchat</a>
+                        </li>
+                        <li>
+                            <a href="# "><i class="fa-brands fa-youtube fa-lg " style="color: #ffffff; margin-right: 7px; "></i>YouTube</a>
+                        </li>
+                        <li>
+                            <a href="# "><i class="fa-brands fa-tiktok fa-lg " style="color: #ffffff; margin-right: 7px; "></i>Tiktok</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-2 " style="border-left: 2px solid white; ">
+                    <h6>
+                        Free Business <br> Services
+                    </h6>
+                    <ul class="p-0 ">
+
+                        <li>
+                            <a href="# ">URL Shortener</a>
+                        </li>
+                        <li>
+                            <a href="# ">Task Manager</a>
+                        </li>
+                        <li>
+                            <a href="# ">ERP</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 ">
+                    <h6>
+                        Registered Address
+                    </h6>
+                    <ul class="p-0 ">
+
+                        <li>
+                            <a href="# " style="line-height: 2px; ">Telemart Pvt Limited
+            Suite 401- 406, 4th Floor, Al- <br>
+             Khaleej Tower Plot# C-24 B.M.C.H.S Shaheed-e-Millat <br> Karachi, Pakistan.</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+            <div class="row px-5 py-3 ">
+                <div class="col-md-6 text-light ">© 2022 © Telemart
+                </div>
+                <div class="col-md-6 text-end ">
+                    <img src="assets/images/f-1.png " alt=" ">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- RESPONSIVE FOOTER  -->
+
+    <div class="footer-r">
+        <div class="follow text-center pb-4 pt-2">
+            <h5 class="text-light">Follow US </h5>
+            <i class="fa-brands fa-facebook-f fa-xl px-2" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-twitter fa-lg px-2" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-snapchat fa-lg px-2" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-instagram fa-lg px-2" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-youtube fa-lg px-2" style="color: #ffffff;"></i>
+        </div>
+        <div class="icons text-center">
+
+        </div>
+        <h6 class="text-light text-center">© 2022 © Telemart</h6>
+    </div>
+
+
+
+
+
+
+
+    <link href="assets/css/owl.carousel.min.css " rel="stylesheet ">
+    <link href="assets/css/owl.theme.default.min.css " rel="stylesheet ">
+    <script src="assets/css/jquery.min.js "></script>
+    <script src="assets/css/owl.carousel.min.js "></script>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "220px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            dots: true,
+            autoplay: true,
+            // autoplayTimeout: 10000,
+            // slideTransition: 'linear',
+            // autoplaySpeed: 1000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                100: {
+                    items: 2
+                },
+                300: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+
+    <script>
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 20) {
+                $('#navbar').addClass('sticky')
+            } else {
+                $('#navbar').removeClass('sticky')
+            }
+        });
+    </script>
+
+
+    <script>
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 300) {
+                $('.sitemenu').addClass('visible');
+            } else {
+                $('.sitemenu').removeClass('visible');
+            }
+        });
+    </script>
+
+    <script>
+        AOS.init();
+    </script>
+
+
+    <!-- row 2 carousel  -->
+    <script>
+        $('.carousel-main').owlCarousel({
+            items: 1,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 1500,
+            margin: 10,
+            nav: true,
+            dots: false,
+            navText: ['<span class="fas fa-chevron-left fa-2x "></span>', '<span class="fas fa-chevron-right fa-2x "></span>'],
+        })
+    </script>
+
+    <!-- ROW2-CAROUSEL  -->
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                100: {
+                    items: 3
+                },
+                200: {
+                    items: 4
+                }
+            }
+        })
+    </script>
+
+    <!-- Respponsive Java  -->
+    <!-- row-1-r  -->
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            dots: true,
+            autoplay: true,
+            // autoplayTimeout: 10000,
+            // slideTransition: 'linear',
+            // autoplaySpeed: 1000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                100: {
+                    items: 2
+                },
+                200: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+
+    <!-- row-2-r  -->
+    <script>
+        $(document).ready(function() {
+
+            $("#owl-demo ").owlCarousel({
+                navigation: true, // Show next and prev buttons
+                slideSpeed: 50,
+                paginationSpeed: 50,
+                items: 4,
+                itemsDesktop: false,
+                itemsDesktopSmall: false,
+                itemsTablet: false,
+                itemsMobile: false
+
+            });
+
+        });
+    </script>
+
+    <!-- row-7  -->
+    <script>
+        $(document).ready(function() {
+            var carousel = $("#owl-demo");
+            carousel.owlCarousel({
+                navigation: true,
+                navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+            });
+        });
+    </script>
+</body>
+
+</html>
